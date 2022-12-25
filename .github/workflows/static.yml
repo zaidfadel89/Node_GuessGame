@@ -40,3 +40,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        
+        
+        
+      - name: Deploy to GitHub Pages
+        id: npm
+        run: npm install
+        
+      - name: Deploy to GitHub Pages
+        id: npm i
+        run: npm start
+      
+      
+      
+      
